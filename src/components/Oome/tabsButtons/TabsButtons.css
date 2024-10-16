@@ -1,0 +1,16 @@
+.tabs-buttons {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.2rem;
+}
+.tabs-buttons button {
+    background-color: transparent;
+    color: var(--secondary-color-1-L);
+    border: none;
+}
+
+.tabs-buttons button.active {
+    color: var(--spicy-color-1-L);
+}

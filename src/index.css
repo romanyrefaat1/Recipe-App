@@ -1,0 +1,79 @@
+:root {
+  --main-color-1-L: #242424;
+  --main-text-color-1-L: #ffffff;
+  --secondary-color-1-L: #BCBCBC;
+  --spicy-color-1-L: #C7FF43;
+  --spicy-color-2-L: #EFFF77;
+
+  --etc2-fs: 24px;
+  --etc3-fs: 20px;
+}
+
+/* Resetin / Variable Start */
+a {
+  color: var(--main-text-color-1-L);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--main-color-1-L);
+  color: var(--main-text-color-1-L);
+
+}
+
+.sec-color {
+  color: var(--secondary-color-1-L);
+}
+.sec-back {
+  background: var(--secondary-color-1-L);
+}
+
+.spicy-color-1 {
+  color: var(--spicy-color-1-L);
+}
+.spicy-color-2 {
+  color: var(--spicy-color-2-L);
+}
+.spicy-back-1 {
+  color: var(--spicy-color-1-L);
+}
+.spicy-back-2 {
+  color: var(--spicy-color-2-L);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+.active {
+  position: relative;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--spicy-color-2-L);
+}
+
+/* Resetin / Variable End */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 30px 50px;
+}

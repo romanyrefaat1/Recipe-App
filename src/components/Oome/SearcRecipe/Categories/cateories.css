@@ -1,0 +1,19 @@
+.cateories--container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cateories--container span.cateroy {
+    background-color: #3E3E3E;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cateories--container span.cateroy.selected {
+    background-color: #B9B9B9;
+    color: #555555;
+    /* background-color: red; */
+}
